@@ -7,18 +7,20 @@
 ## Prerequisites
 
 - `Python` programming language
-- `googleapiclient` library
-- `pymongo` library
 - `mysql-connector-python` library
 - `streamlit` library
-- 'github'
-
-## MongoDb Connection
-
-1. Install MongoDb and MongoDb Compass
-2. mongodb://localhost:27017
+- `plotly`
+- `git` and `github'
 
 ## MySQL Connection
 
 1. Install MySQL Server and MySQL Workbench
-2. Create a local connection and a database
+2. Create a local connection and a database (phonpe_data)
+
+## Work flow
+
+1. Clone Phonepe Dataset using the link https://github.com/PhonePe/pulse#readme into your local by using git
+2. Extract and transform data using python
+3. Insert the extracted data into mysql database by creating appropriate tables
+4. Visualize the data by using Streamlit and Plotly libraries in Python and create maps
+5. Update and query the data using mysql and python
