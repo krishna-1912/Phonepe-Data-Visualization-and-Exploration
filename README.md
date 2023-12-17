@@ -24,3 +24,7 @@
 3. Insert the extracted data into mysql database by creating appropriate tables
 4. Visualize the data by using Streamlit and Plotly libraries in Python and create maps
 5. Update and query the data using mysql and python
+
+
+## Video Recording
+https://github.com/krishna-1912/Phonepe-Data-Visualization-and-Exploration/blob/main/PhonePe%20Pulse%20Data%20Visualization%20and%20Exploration%20(1).mp4
